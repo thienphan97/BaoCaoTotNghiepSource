@@ -1,0 +1,15 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "Neutral"
+  Fields 3
+    ID_Tram Integer ;
+    Câp_Tram Integer ;
+    Ap_Luc_Nuoc Integer ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "ee3f4ea5-f296-4da2-8893-d5c8a718602e"
+end_metadata

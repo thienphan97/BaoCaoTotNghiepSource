@@ -1,0 +1,18 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 5
+    ID Integer ;
+    Tên_Chu_Nhà Char (25) ;
+    Tinh_Trang_Su_Dung Char (4) ;
+    Luong_Nuoc_Thai_Thang_m3 Integer ;
+    Ðon_Gia Char (6) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "fdddb216-e906-4820-b9f8-85bff21cec90"
+"\MapInfo\ParentTableID" = "f2f25e7b-33d3-488f-b77e-a7f30bea6b6f"
+end_metadata

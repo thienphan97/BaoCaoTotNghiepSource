@@ -1,0 +1,18 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "Neutral"
+  Fields 6
+    ID Integer ;
+    Câp_Ðô_Ðuong_Ông Integer ;
+    Chiêu_Dai_m Integer ;
+    Ðuong_Kinh_cm Integer ;
+    Vân_Tôc_Nuoc Float ;
+    Luu_Luong_Nuoc Char (6) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "31090ce9-2839-4ab5-8e51-d72a94461adf"
+end_metadata

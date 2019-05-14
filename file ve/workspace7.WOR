@@ -1,0 +1,85 @@
+!Workspace
+!Version 1150
+!Charset WindowsLatin1
+Open Table "bando.TAB" As bando Interactive
+Open Table "Diem_Tramdo" As Diem_Tramdo Interactive
+Open Table "Duong_giaothong" As Duong_giaothong Interactive
+Open Table "Duong_OngNuocThai" As Duong_OngNuocThai Interactive
+Open Table "Vung_HiepThanh" As Vung_HiepThanh Interactive
+Open Table "Vung_DancuHiepThanh" As Vung_DancuHiepThanh Interactive
+Map From Duong_OngNuocThai,Duong_giaothong,Diem_Tramdo,Vung_DancuHiepThanh,Vung_HiepThanh,bando
+  Position (-0.229167,-0.0520833) Units "in"
+  Width 6.85417 Units "in" Height 5.60417 Units "in" 
+Set Window FrontWindow() ScrollBars On Autoscroll On Enhanced On Smooth Text Antialias Image High
+Set Map
+  CoordSys Earth Projection 1, 0
+  Center (0.4168157278,0.4754594938)
+  Zoom 117.6736874 Units "mi"
+  Preserve Zoom Display Zoom
+  Distance Units "mi" Area Units "sq mi" XY Units "degree"
+Set Map
+  Layer 1
+    Display Off
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Luu_Luong_Nuoc
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 2
+    Display Off
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Tên_Ðuong
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 3
+    Display Off
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With ID
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 4
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Tên_Chu_Nhà
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 5
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Tên_Chu_Nhà
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 6
+    Display Off
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Selectable Off
+    Zoom (2.3, 930) Units "mi" 
+  contrast 50 
+  brightness 50 
+  alpha 255 
+    transparency off 
+  color 0 
+    grayscale off 
+Set Map Layer 0 Editable
+Set Window FrontWindow() Printer
+ Name "MapInfo PDF Printer Version 12.0" Orientation Portrait Copies 1
+ Papersize 1
+Browse * From Vung_HiepThanh
+  Position (0.3125,0.375) Units "in"
+  Width 5.38542 Units "in" Height 2.82292 Units "in" Min
+set window FrontWindow() Font ("Segoe UI",0,9,0)
+set browse sortfilter off order by 2
+Set Window FrontWindow() Printer
+ Name "MapInfo PDF Printer Version 12.0" Orientation Portrait Copies 1
+ Papersize 1
+Browse * From Vung_HiepThanh
+  Position (0.572917,0.697917) Units "in"
+  Width 5.38542 Units "in" Height 2.82292 Units "in" 
+set window FrontWindow() Font ("Segoe UI",0,9,0)
+Set Window FrontWindow() Printer
+ Name "MapInfo PDF Printer Version 12.0" Orientation Portrait Copies 1
+ Papersize 1

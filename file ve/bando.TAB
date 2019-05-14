@@ -1,0 +1,18 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  File "bando.jpg"
+  Type "RASTER"
+  (0.00055,0.1865) (5,143) Label "Pt 1",
+  (0.8505,0.0015) (632,0) Label "Pt 2",
+  (0.8505,0.562) (644,430) Label "Pt 3",
+  (0.324,0.738) (244,557) Label "Pt 4"
+  CoordSys Earth Projection 1, 0
+  Units "degree"
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "6625f974-d6c0-49f2-a319-f9b69c5267f1"
+end_metadata

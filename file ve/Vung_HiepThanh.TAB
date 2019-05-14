@@ -1,0 +1,15 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "Neutral"
+  Fields 3
+    ID Integer ;
+    Khu_Vuc Char (25) ;
+    Dien_Tich Char (25) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "f2f25e7b-33d3-488f-b77e-a7f30bea6b6f"
+end_metadata
